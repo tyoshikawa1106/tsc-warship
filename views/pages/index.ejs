@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body class="slds">
+    <header>
+      <% include ../partials/siteHeader %>
+    </header>
+    <main>
+      <% include ../partials/pageHeader %>
+      <div class="slds-p-around--large">
+        <div id="header">
+          <div id="banner" class="quadrant">Warship Combat!</div>
+          <div class="quadrant"><div id="status"></div></div>
+        </div>
+        <div id="boards">
+          <div id="computerBoard" class="quadrant board"></div>
+          <div id="playerBoard" class="quadrant board"></div>
+        </div>
+      </div>
+    </main>
+    <!-- JavScript -->
+    <script type="text/javascript" src="javascripts/min/warship.js"></script>
+  </body>
+</html>
