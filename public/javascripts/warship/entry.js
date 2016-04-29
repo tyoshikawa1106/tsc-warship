@@ -363,4 +363,3 @@ var Game = (function () {
     return Game;
 }());
 $(new Function("var game = new Game();"));
-//# sourceMappingURL=warship.js.map
